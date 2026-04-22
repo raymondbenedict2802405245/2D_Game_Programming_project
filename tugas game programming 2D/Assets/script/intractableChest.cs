@@ -12,7 +12,7 @@ public class intractableChest : MonoBehaviour
 
     private IInteractable currentInteractable;
 
-    // Update is called once per frame
+    
     void Update()
     {
         if(Keyboard.current.eKey.IsActuated() && currentInteractable != null)
